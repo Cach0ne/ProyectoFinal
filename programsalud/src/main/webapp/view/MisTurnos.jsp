@@ -42,7 +42,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 	<!-- Container wrapper -->
 	<div class="container-fluid">
 		<!-- Navbar brand -->
-		<a class="navbar-brand me-4" href=""> <img src="IMG/logo.png"
+		<a class="navbar-brand me-4" href=""> <img src="https://st3.depositphotos.com/11277616/16039/i/450/depositphotos_160391444-stock-photo-first-aid-symbol.jpg"
 			height="35" alt="PS Logo" loading="lazy" style="margin-top: -1px" />
 		</a>
 
