@@ -31,7 +31,7 @@
 	crossorigin="anonymous" /> -->
 </head>
 
-<!-- Tomamos el parametro que le enviamos con el botón "tomar"-->
+<!-- Tomamos el parametro que le enviamos con el botÃ³n "tomar"-->
 <%
 Integer dni = Integer.parseInt(request.getParameter("dni"));
 %>
@@ -41,7 +41,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 	<!-- Container wrapper -->
 	<div class="container-fluid">
 		<!-- Navbar brand -->
-		<a class="navbar-brand me-4" href=""> <img src="IMG/logo.png"
+		<a class="navbar-brand me-4" href=""> <img src="https://st3.depositphotos.com/11277616/16039/i/450/depositphotos_160391444-stock-photo-first-aid-symbol.jpg"
 			height="35" alt="PS Logo" loading="lazy" style="margin-top: -1px" />
 		</a>
 
@@ -156,7 +156,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 								<div class="form-outline">
 									<input type="number" name="telefono" class="form-control"
 										required value="<%=usuario.get(0).getTelefono()%>" readonly />
-									<label class="form-label" for="form3Example4">Teléfono</label>
+									<label class="form-label" for="form3Example4">TelÃ©fono</label>
 								</div>
 							</div>
 							<div class="col">
@@ -192,7 +192,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 								<div class="form-outline">
 									<input type="text" name="direccion" class="form-control"
 										required value="<%=usuario.get(0).getDireccion()%>" readonly />
-									<label class="form-label" for="form3Example6">Dirección</label>
+									<label class="form-label" for="form3Example6">DirecciÃ³n</label>
 								</div>
 							</div>
 							<div class="col">
@@ -210,14 +210,14 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 								<div class="form-outline">
 									<input type="text" name="password" class="form-control"
 										required value="<%=usuario.get(0).getContrasenia()%>" readonly />
-									<label class="form-label">Contraseña</label>
+									<label class="form-label">ContraseÃ±a</label>
 								</div>
 							</div>
 							<div class="col">
 								<div>
 									<i type="button" class="fas fa-edit" style="color: green"
 										role="buttom" data-bs-toggle="modal"
-										data-bs-target="#ContraseñaModal" title="EDITAR"></i>
+										data-bs-target="#ContraseÃ±aModal" title="EDITAR"></i>
 								</div>
 							</div>
 						</div>
@@ -316,7 +316,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 							<div class="form-outline mb-4">
 								<input type="text" name="telefono" class="form-control" required
 									autofocus id="form1Example1" /> <label class="form-label"
-									for="form1Example1">Teléfono</label>
+									for="form1Example1">TelÃ©fono</label>
 							</div>
 							<!-- Guardar button -->
 							<button type="submit" class="btn btn-success btn-block mb-2">Guardar</button>
@@ -364,7 +364,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 							<div class="form-outline mb-4">
 								<input type="text" name="direccion" class="form-control"
 									required autofocus id="form1Example1" /> <label
-									class="form-label" for="form1Example1">Dirección</label>
+									class="form-label" for="form1Example1">DirecciÃ³n</label>
 							</div>
 							<!-- Guardar button -->
 							<button type="submit" class="btn btn-success btn-block mb-2">Guardar</button>
@@ -375,8 +375,8 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 			</div>
 		</div>
 
-		<!-- Modal Contraseña-->
-		<div class="modal fade" id="ContraseñaModal" tabindex="-1"
+		<!-- Modal ContraseÃ±a-->
+		<div class="modal fade" id="ContraseÃ±aModal" tabindex="-1"
 			aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content">
@@ -388,7 +388,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 							<div class="form-outline mb-4">
 								<input type="text" name="password" class="form-control" required
 									autofocus id="form1Example1" /> <label class="form-label"
-									for="form1Example1">Contraseña</label>
+									for="form1Example1">ContraseÃ±a</label>
 							</div>
 							<!-- Guardar button -->
 							<button type="submit" class="btn btn-success btn-block mb-2">Guardar</button>
@@ -406,7 +406,7 @@ Integer dni = Integer.parseInt(request.getParameter("dni"));
 		<!-- Copyright -->
 		<div class="text-center p-2 "
 			style="background-color: rgba(0, 0, 0, 0.2);">
-			© 2022 Copyright: <a class="text-reset fw-bold">Cach0n3.io</a>
+			Â© 2022 Copyright: <a class="text-reset fw-bold">Cach0n3.io</a>
 		</div>
 		<!-- Copyright -->
 	</footer>
